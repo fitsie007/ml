@@ -20,21 +20,21 @@ java org.fitz.ml.main.PlayTicTacToeGame -experience teacher -iterations 1 -file 
 '-----------------------------------'
 .
 ├── data
-│   ├── tic_tac_toe_teacher_games1.txt          --> teacher game file (x-values)
-│   └── tic_tac_toe_teacher_games2.txt          --> teacher game file (raw game board as 2d matrix)
-└── src
-    └── org
-        └── fitz
-            └── ml                              --> machine learning package
-                ├── constants
-                │   └── GameConstants.java      --> contains constants used in the program
-                ├── main                        --> main package
-                │   └── PlayTicTacToeGame.java  --> main class to run the program
-                └── ttt                         --> tic-tac-toe package
-                    ├── Board.java              --> tic-tac-toe-board
-                    ├── Experience.java         --> facilitates teacher or no-teacher experience
-                    ├── Game.java               --> input a move, output win, lose, tie, nothing (not end of game)
-                    ├── Learner.java            --> input experience, output knowledge
-                    ├── Move.java               --> facilitates user and computer moves
-                    ├── Player.java             --> input knowledge and board, output a move
-                    └── TicTacToe.java          --> facilitates testTeacher and testNoTeacher
+│   ├── tic_tac_toe_teacher_games1.txt          --> teacher game file (x-values)  
+│   └── tic_tac_toe_teacher_games2.txt          --> teacher game file (raw game board as 2d matrix)  
+└── src  
+    └── org  
+        └── fitz  
+            └── ml                              --> machine learning package  
+                ├── constants  
+                │   └── GameConstants.java      --> contains constants used in the program  
+                ├── main                        --> main package  
+                │   └── PlayTicTacToeGame.java  --> main class to run the program  
+                └── ttt                         --> tic-tac-toe package  
+                    ├── Board.java              --> tic-tac-toe-board  
+                    ├── Experience.java         --> facilitates teacher or no-teacher experience  
+                    ├── Game.java               --> input a move, output win, lose, tie, nothing (not end of game)  
+                    ├── Learner.java            --> input experience, output knowledge  
+                    ├── Move.java               --> facilitates user and computer moves  
+                    ├── Player.java             --> input knowledge and board, output a move  
+                    └── TicTacToe.java          --> facilitates testTeacher and testNoTeacher  
