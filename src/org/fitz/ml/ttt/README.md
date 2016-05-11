@@ -6,7 +6,7 @@ To compile:
 
 To Execute:
 
-*java org.fitz.ml.main.PlayTicTacToeGame -experience teacher -iterations 1 -file ./data/tic_tac_toe_teacher_games2.txt*
+*java org.fitz.ml.main.PlayTicTacToeGame -experience teacher -iterations 1 -file ./data/ttt/tic_tac_toe_teacher_games2.txt*
  	
     * -experience can be <teacher> or <noteacher>
     * -iterations is an integer representing the number of times
