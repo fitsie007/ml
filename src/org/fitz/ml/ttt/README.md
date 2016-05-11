@@ -1,11 +1,12 @@
+### LMS-Based Tic-Tac-Toe
 To compile:
 
-javac -cp ./src/ -d . src/org/fitz/ml/main/PlayTicTacToeGame.java
+*javac -cp ./src/ -d . src/org/fitz/ml/main/PlayTicTacToeGame.java*
 
 
 To Execute:
 
-java org.fitz.ml.main.PlayTicTacToeGame -experience teacher -iterations 1 -file ./data/tic_tac_toe_teacher_games2.txt
+*java org.fitz.ml.main.PlayTicTacToeGame -experience teacher -iterations 1 -file ./data/tic_tac_toe_teacher_games2.txt*
  	
     * -experience can be <teacher> or <noteacher>
     * -iterations is an integer representing the number of times
@@ -15,11 +16,11 @@ java org.fitz.ml.main.PlayTicTacToeGame -experience teacher -iterations 1 -file 
       the game will train for 1 iteration in teacher mode
 
 
-.-----------------------------------.
-| Program files                     |
-'-----------------------------------'
-.
-├── data
+.-----------------------------------.  
+| Program files                     |  
+'-----------------------------------'  
+.  
+├── data  
 │   ├── tic_tac_toe_teacher_games1.txt          --> teacher game file (x-values)  
 │   └── tic_tac_toe_teacher_games2.txt          --> teacher game file (raw game board as 2d matrix)  
 └── src  
